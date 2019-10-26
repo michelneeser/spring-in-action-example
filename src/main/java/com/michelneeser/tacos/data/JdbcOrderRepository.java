@@ -1,6 +1,7 @@
 package com.michelneeser.tacos.data;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.michelneeser.tacos.Ingredient;
 import com.michelneeser.tacos.Order;
 import com.michelneeser.tacos.Taco;
 import org.springframework.jdbc.core.JdbcTemplate;
