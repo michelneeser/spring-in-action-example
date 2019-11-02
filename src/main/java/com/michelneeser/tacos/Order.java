@@ -48,6 +48,9 @@ public class Order {
     @ManyToMany(targetEntity = Taco.class)
     private List<Taco> designs = new ArrayList<>();
 
+    @ManyToOne
+    private User user;
+
     public void addDesign(Taco taco) {
         designs.add(taco);
     }

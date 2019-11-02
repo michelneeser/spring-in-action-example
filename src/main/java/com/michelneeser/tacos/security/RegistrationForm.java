@@ -1,8 +1,10 @@
 package com.michelneeser.tacos.security;
 
 import com.michelneeser.tacos.User;
+import lombok.Data;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+@Data
 public class RegistrationForm {
 
     private String username;
