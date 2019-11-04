@@ -21,4 +21,4 @@ values ('SRCR', 'Sour Cream', 4);
 
 /*
 insert into User (id, username, password, fullname, street, city, state, zip, phonenumber)
-values (1, 'michel', '$2y$12$sdYVDy17SEDwCN59lcRar.7gYLjWaUZ7fARUGbrtU1EGeVu.EH/am', 'Michel Neeser', 'Teststr 99', 'Testcity', 'AG', '5040', '0999999999');*/
+values (1, 'michel', '$2y$12$sdYVDy17SEDwCN59lcRar.7gYLjWaUZ7fARUGbrtU1EGeVu.EH/am', 'Michel Neeser', 'Teststr 99', 'Testcity', 'AG', '1000', '0999999999');*/
