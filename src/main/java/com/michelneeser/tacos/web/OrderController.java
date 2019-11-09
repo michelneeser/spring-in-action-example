@@ -21,7 +21,6 @@ import javax.validation.Valid;
 @Controller
 @SessionAttributes("order")
 @RequestMapping("/orders")
-@CrossOrigin(origins="*")
 public class OrderController {
 
     private OrderRepository orderRepo;
